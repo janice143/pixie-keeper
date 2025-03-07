@@ -8,26 +8,6 @@ chrome.runtime.onMessage.addListener(function (request, sender, sendResponse) {
   }
 });
 
-function handleImageClick(event) {
-  if (!isCollectionModeActive) return;
-
-  event.preventDefault();
-  event.stopPropagation();
-
-  const img = event.target;
-
-  // Send message to background script with image info
-  chrome.runtime.sendMessage({
-    action: 'imageCollected',
-    imageSrc: img.src,
-    pageUrl: window.location.href,
-    pageTitle: document.title
-  });
-
-  // Show notification
-  showNotification(img.src);
-}
-
 function showNotification(imageSrc) {
   const notification = document.createElement('div');
   notification.className = 'treasure-chest-notification';
