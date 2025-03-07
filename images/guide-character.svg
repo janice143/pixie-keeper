@@ -1,0 +1,57 @@
+<svg width="150" height="200" viewBox="0 0 150 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Glow effect -->
+  <filter id="characterGlow" x="-50%" y="-50%" width="200%" height="200%">
+    <feGaussianBlur stdDeviation="3" result="blur" />
+    <feComposite in="SourceGraphic" in2="blur" operator="over" />
+  </filter>
+  
+  <!-- Wings -->
+  <path d="M70 70 C40 50, 20 90, 40 110" fill="#F0F8FF" opacity="0.8" />
+  <path d="M70 70 C40 60, 30 100, 45 115" fill="#E6E6FA" opacity="0.9" />
+  
+  <path d="M80 70 C110 50, 130 90, 110 110" fill="#F0F8FF" opacity="0.8" />
+  <path d="M80 70 C110 60, 120 100, 105 115" fill="#E6E6FA" opacity="0.9" />
+  
+  <!-- Body -->
+  <ellipse cx="75" cy="100" rx="15" ry="30" fill="#9370DB" />
+  
+  <!-- Head -->
+  <circle cx="75" cy="60" r="20" fill="#FFE4E1" />
+  
+  <!-- Eyes -->
+  <circle cx="68" cy="55" r="3" fill="#4B0082" />
+  <circle cx="82" cy="55" r="3" fill="#4B0082" />
+  
+  <!-- Smile -->
+  <path d="M65 65 Q75 75, 85 65" fill="none" stroke="#4B0082" stroke-width="1.5" />
+  
+  <!-- Hair -->
+  <path d="M55 50 C60 35, 90 35, 95 50" fill="#FFD700" />
+  <path d="M55 50 C65 40, 85 40, 95 50" fill="#FFD700" />
+  
+  <!-- Arms -->
+  <path d="M60 90 C50 100, 45 110, 50 120" fill="#9370DB" />
+  <path d="M90 90 C100 95, 105 100, 110 110" fill="#9370DB" />
+  
+  <!-- Hands -->
+  <circle cx="50" cy="120" r="5" fill="#FFE4E1" />
+  <circle cx="110" cy="110" r="5" fill="#FFE4E1" />
+  
+  <!-- Legs -->
+  <path d="M65 130 C60 150, 60 170, 65 180" fill="#9370DB" />
+  <path d="M85 130 C90 150, 90 170, 85 180" fill="#9370DB" />
+  
+  <!-- Feet -->
+  <ellipse cx="65" cy="180" rx="7" ry="3" fill="#4B0082" />
+  <ellipse cx="85" cy="180" rx="7" ry="3" fill="#4B0082" />
+  
+  <!-- Image being held -->
+  <rect x="95" y="105" width="20" height="15" rx="2" ry="2" fill="white" stroke="#4B0082" stroke-width="1" />
+  <line x1="100" y1="110" x2="110" y2="110" stroke="#4B0082" stroke-width="1" />
+  <line x1="100" y1="115" x2="105" y2="115" stroke="#4B0082" stroke-width="1" />
+  
+  <!-- Sparkles -->
+  <circle cx="120" cy="100" r="2" fill="#FFD700" filter="url(#characterGlow)" />
+  <circle cx="115" cy="95" r="1" fill="#FFD700" filter="url(#characterGlow)" />
+  <circle cx="125" cy="105" r="1.5" fill="#FFD700" filter="url(#characterGlow)" />
+</svg> 

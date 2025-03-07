@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Your Treasure Chest Collection</title>
+    <link rel="stylesheet" href="collection.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <script src="./lib/jszip.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <div class="logo-container">
+          <!-- <img src="images/icon48.png" alt="Treasure Chest Logo" class="logo" /> -->
+          <h1>Your Treasure Chest</h1>
+        </div>
+        <p class="tagline">All your precious collected images</p>
+      </header>
+
+      <div class="guide-character">
+        <img
+          src="images/guide-character.svg"
+          alt="Guide Character"
+          id="guideCharacter"
+        />
+        <div class="speech-bubble" id="speechBubble">
+          Here are all your treasured images! Hover over them to see details or
+          download them.
+        </div>
+      </div>
+
+      <div class="controls">
+        <!-- <div class="search-container">
+          <input
+            type="text"
+            id="searchInput"
+            placeholder="Search your collection..."
+          />
+        </div> -->
+        <button id="exportBtn" class="btn secondary">Export Collection</button>
+      </div>
+
+      <div class="collection-grid" id="collectionGrid">
+        <!-- Images will be displayed here -->
+        <div class="empty-state">
+          <p>
+            Your collection is empty. Start collecting images by activating
+            collection mode while browsing!
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <script src="collection.js"></script>
+  </body>
+</html>

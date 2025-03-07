@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <!-- Chest base (brown) with rounded corners -->
+  <rect x="24" y="48" width="80" height="48" rx="4" ry="4" fill="#8B4513"/>
+  
+  <!-- Chest top (darker brown) - open lid with rounded corners -->
+  <g transform="rotate(-15, 24, 32)">
+    <rect x="24" y="28" width="80" height="16" rx="4" ry="4" fill="#6B3301"/>
+  </g>
+  
+  <!-- Gold trim on chest -->
+  <rect x="24" y="48" width="80" height="4" fill="#DAA520"/>
+  <rect x="24" y="92" width="80" height="4" fill="#DAA520"/>
+  
+  <!-- Vertical gold trim -->
+  <rect x="24" y="32" width="4" height="64" fill="#DAA520"/>
+  <rect x="100" y="32" width="4" height="64" fill="#DAA520"/>
+  
+  <!-- Lock with rounded corners -->
+  <rect x="60" y="48" width="8" height="12" rx="1" ry="1" fill="#DAA520"/>
+  
+  <!-- Chest details - pixel highlights -->
+  <rect x="28" y="56" width="4" height="4" fill="#A67C52"/>
+  <rect x="28" y="64" width="4" height="4" fill="#A67C52"/>
+  <rect x="28" y="72" width="4" height="4" fill="#A67C52"/>
+  <rect x="28" y="80" width="4" height="4" fill="#A67C52"/>
+  <rect x="28" y="88" width="4" height="4" fill="#A67C52"/>
+  
+  <rect x="96" y="56" width="4" height="4" fill="#A67C52"/>
+  <rect x="96" y="64" width="4" height="4" fill="#A67C52"/>
+  <rect x="96" y="72" width="4" height="4" fill="#A67C52"/>
+  <rect x="96" y="80" width="4" height="4" fill="#A67C52"/>
+  <rect x="96" y="88" width="4" height="4" fill="#A67C52"/>
+  
+  <!-- Photos/Images popping out of the chest with rounded corners -->
+  <!-- Polaroid-style photo 1 -->
+  <g transform="rotate(-15, 32, 36)">
+    <rect x="32" y="36" width="24" height="28" rx="2" ry="2" fill="#FFFFFF"/>
+    <rect x="34" y="38" width="20" height="16" rx="1" ry="1" fill="#3498db"/>
+    <rect x="36" y="40" width="4" height="4" rx="1" ry="1" fill="#FFFFFF"/>
+    <rect x="42" y="46" width="2" height="2" fill="#FFFFFF"/>
+  </g>
+  
+  <!-- Polaroid-style photo 2 -->
+  <g transform="rotate(10, 60, 30)">
+    <rect x="60" y="30" width="24" height="28" rx="2" ry="2" fill="#FFFFFF"/>
+    <rect x="62" y="32" width="20" height="16" rx="1" ry="1" fill="#e74c3c"/>
+    <rect x="66" y="38" width="6" height="4" rx="1" ry="1" fill="#FFFFFF"/>
+  </g>
+  
+  <!-- Film strip coming out with rounded corners -->
+  <rect x="48" y="46" width="32" height="8" rx="2" ry="2" fill="#333333"/>
+  <rect x="50" y="48" width="4" height="4" fill="#FFFFFF"/>
+  <rect x="58" y="48" width="4" height="4" fill="#FFFFFF"/>
+  <rect x="66" y="48" width="4" height="4" fill="#FFFFFF"/>
+  <rect x="74" y="48" width="4" height="4" fill="#FFFFFF"/>
+  
+  <!-- Pictures/Photos in the chest with rounded corners -->
+  <rect x="34" y="60" width="16" height="12" rx="2" ry="2" fill="#FFFFFF"/>
+  <rect x="36" y="62" width="12" height="8" rx="1" ry="1" fill="#2ecc71"/>
+  
+  <rect x="56" y="64" width="16" height="12" rx="2" ry="2" fill="#FFFFFF"/>
+  <rect x="58" y="66" width="12" height="8" rx="1" ry="1" fill="#9b59b6"/>
+  
+  <rect x="78" y="58" width="16" height="12" rx="2" ry="2" fill="#FFFFFF"/>
+  <rect x="80" y="60" width="12" height="8" rx="1" ry="1" fill="#f1c40f"/>
+  
+  <!-- Digital camera peeking out with rounded corners -->
+  <rect x="40" y="76" width="16" height="12" rx="2" ry="2" fill="#444444"/>
+  <rect x="42" y="78" width="6" height="4" rx="1" ry="1" fill="#55AAEE"/>
+  <rect x="50" y="78" width="4" height="4" rx="1" ry="1" fill="#222222"/>
+  
+  <!-- SD card with rounded corners -->
+  <rect x="70" y="82" width="12" height="8" rx="1" ry="1" fill="#FF9900"/>
+  <rect x="72" y="84" width="8" height="4" rx="0.5" ry="0.5" fill="#CC6600"/>
+  
+  <!-- Sparkle highlights -->
+  <rect x="36" y="56" width="2" height="2" fill="#FFFFFF"/>
+  <rect x="78" y="68" width="2" height="2" fill="#FFFFFF"/>
+  <rect x="54" y="68" width="2" height="2" fill="#FFFFFF"/>
+  <rect x="90" y="56" width="2" height="2" fill="#FFFFFF"/>
+  <rect x="44" y="40" width="2" height="2" fill="#FFFFFF"/>
+  <rect x="66" y="30" width="2" height="2" fill="#FFFFFF"/>
+</svg>

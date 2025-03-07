@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+  <!-- Chest base (brown) with rounded corners -->
+  <rect x="3" y="6" width="10" height="6" rx="1" ry="1" fill="#8B4513"/>
+  
+  <!-- Chest top (darker brown) - slightly open with rounded corners -->
+  <rect x="3" y="4" width="10" height="2" rx="1" ry="1" fill="#6B3301"/>
+  
+  <!-- Gold trim on chest -->
+  <rect x="3" y="6" width="10" height="1" fill="#DAA520"/>
+  <rect x="3" y="11" width="10" height="1" fill="#DAA520"/>
+  
+  <!-- Vertical gold trim -->
+  <rect x="3" y="4" width="1" height="8" fill="#DAA520"/>
+  <rect x="12" y="4" width="1" height="8" fill="#DAA520"/>
+  
+  <!-- Photos peeking out with rounded corners -->
+  <rect x="4" y="5" width="3" height="2" rx="0.5" ry="0.5" fill="#FFFFFF"/>
+  <rect x="9" y="5" width="2" height="3" rx="0.5" ry="0.5" fill="#FFFFFF"/>
+  
+  <!-- Colored photo centers -->
+  <rect x="5" y="5" width="1" height="1" fill="#3498db"/>
+  <rect x="9" y="6" width="1" height="1" fill="#e74c3c"/>
+  
+  <!-- Sparkle -->
+  <rect x="7" y="7" width="1" height="1" fill="#FFFFFF"/>
+</svg>

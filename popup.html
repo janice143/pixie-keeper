@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Treasure Chest - Image Collector</title>
+    <link rel="stylesheet" href="popup.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <div class="logo-container">
+          <!-- <img src="images/icon48.svg" alt="Treasure Chest Logo" class="logo" /> -->
+          <h1>Treasure Chest</h1>
+        </div>
+        <p class="tagline">Your precious image collection</p>
+      </header>
+
+      <div class="guide-character">
+        <img
+          src="images/guide-character.svg"
+          alt="Guide Character"
+          id="guideCharacter"
+        />
+        <div class="speech-bubble" id="speechBubble">
+          Welcome to your Treasure Chest! Click on any image on the page to add
+          it to your collection.
+        </div>
+      </div>
+
+      <div class="collection-preview">
+        <div class="controls">
+          <h2>Recent Treasures</h2>
+          <button id="viewCollectionBtn" class="btn secondary">
+            View Collection
+          </button>
+        </div>
+
+        <div id="recentImages" class="recent-images">
+          <!-- Recent images will be displayed here -->
+          <div class="empty-state">
+            <p>Your treasures will appear here</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="popup.js"></script>
+  </body>
+</html>
